@@ -1,0 +1,11 @@
+function toggleDetails(sectionId) {
+    // Get the section to toggle using the passed sectionId
+    var section = document.getElementById(sectionId);
+    
+    // Toggle the display style of the section
+    if (section.style.display === "none") {
+        section.style.display = "block";
+    } else {
+        section.style.display = "none";
+    }
+}

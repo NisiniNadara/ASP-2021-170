@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>CopyPro (Pvt).LTD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+	<script src="toggleDetails.js"></script>
+</head>
+
+<body>
+
+<section>
+	<div class="product-category">
+        <h3>Machine Parts</h3>
+		<table style= "border:10px ; background-color:light-blue; width:100%; outline-width:10px; outline-color:black">
+		
+		<tr>
+        <div class="product-subcategory">
+			<td style= "border:10px solid #dddd; width:20%">
+			<h4>Toner Cartridge</h4>
+			</td>
+			<td>
+			<img src="Toner Cartridge.jpg" alt="Photocopy Machine C" width="50%" height="50%">
+			</td>
+            <!-- Include types of Toner Cartridge -->
+			<td style="width:45%; text-align:left">
+            <ul>
+                <li><b>HP 17A Black Original LaserJet Toner Cartridge:</b><br>Compatible with HP LaserJet Pro M102 and M130 series.
+					<br>Price: LKR 11,000
+				</li>
+				
+				<li><b>Canon 045H High Yield Toner Cartridge:</b><br>Compatible with Canon imageCLASS MF630 and MF730 series.
+					<br>Price: LKR 18,000
+				</li>
+            </ul>
+			</td>
+        </div>
+		</tr>
+
+		<tr>
+        <div class="product-subcategory">
+			<td>
+            <h4>Drum Unit</h4>
+			</td>
+			<td>
+			<img src="Drum Unit.png" alt="Photocopy Machine C" width="50%" height="50%">
+			</td>
+
+			<td style="text-align:left">
+            <ul>
+                <li><b>Brother DR-2255 Drum Unit:</b><br>Compatible with Brother HL and DCP series printers.
+					<br>Price: LKR 12,000</li>
+				
+				<li><b>Canon DR-400 Drum Unit:</b><br>Compatible with Canon imageCLASS MF4000 series printers.
+					<br>Price: LKR 18,000
+				</li>
+            </ul>
+			</td>
+        </div>
+		</tr>
+
+		<tr>
+        <div class="product-subcategory">
+			<th>
+            <h4>Printer Pickup Rollers</h4>
+			</th>
+			<td>
+			<img src="Printer Pickup Roller.png" alt="Photocopy Machine C" width="70%" height="70%">
+			</td>
+
+			<td style="text-align:left">
+            <ul>
+				<li><b>HP RM1-0036 Pickup Roller:</b><br>Compatible with various HP LaserJet printers, such as the LaserJet P1005 and P1006 series.
+					<br>Price: LKR 3,000</li>
+				
+				<li><b>Canon FC6-7728-000 Pickup Roller:</b><br>Compatible with Canon imageRUNNER and imageCLASS series printers, 
+				such as the imageRUNNER 1025 and imageCLASS D460 series.
+					<br>Price: LKR 3,500</li>
+            </ul>
+			</td>
+        </div>
+		</tr>
+
+		<tr>
+        <div class="product-subcategory">
+			<td>
+            <h4>Control Panel</h4>
+			</td>
+			<td>
+			<img src="Control Panel.jpg" alt="Photocopy Machine C" width="80%" height="80%">
+			</td>
+
+			<td style="text-align:left">
+            <ul>
+                <li><b>Toshiba e-STUDIO Control Panel:</b><br>This control panel is compatible with various Toshiba e-STUDIO 
+				models and offers an intuitive touchscreen interface for easy operation.
+					<br>Price: LKR 150,000</li>
+				
+				<li><b>Konica Minolta bizhub Control Panel:</b><br>Designed for Konica Minolta bizhub series, this control 
+				panel provides a user-friendly touchscreen experience and advanced functionalities.
+					<br>Price: LKR 160,000</li>
+            </ul>
+			</td>
+        </div>
+		</tr>
+
+		<tr>
+        <div class="product-subcategory">
+			<td>
+            <h4>Printer Gear</h4>
+			</td>
+			<td>
+			<img src="Printer Gear.jpg" alt="Photocopy Machine C" width="60%" height="60%">
+			</td>
+
+			<td style="text-align:left">
+            <ul>
+                <li><b>HP LaserJet Pro 400 Gear Kit:</b><br>This gear kit is compatible with HP LaserJet Pro 400 series printers.
+					<br>Price: LKR 8,000</li>
+				
+				<li><b>Canon imageRUNNER 2535/2545 Gear Set:</b><br>This gear set is compatible with Canon imageRUNNER 2535 and 2545 series printers.
+					<br>Price: LKR 12,000</li>
+            </ul>
+			</td>
+        </div>
+		</tr>
+
+		<tr>
+        <div class="product-subcategory">
+			<td>
+            <h4>Drum Cleaning Blade</h4>
+			</td>
+			<td>
+			<img src="Drum Cleaning Blade.jpg" alt="Photocopy Machine C" width="70%" height="70%">
+			</td>
+
+			<td style="text-align:left">
+            <ul>
+                <li><b>Brother DR-225 Drum Cleaning Blade:</b><br>Compatible with Brother HL-L2320D, DCP-L2520D, and other Brother printers.
+					<br>Price: LKR 2,000</li>
+				
+				<li><b>Canon DR-400 Drum Cleaning Blade:</b><br>Compatible with Canon imageRUNNER ADVANCE series.
+					<br>Price: LKR 3,500</li>
+            </ul>
+			</td>
+        </div>
+		</tr>
+
+    </table>
+	</div>
+	
+	</section>
+	
+</body>
+
+</html>
