@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+	<script src="toggleDetails.js"></script>
+
+</head>
+<body>
+
+<header class="navbar">
+		<table>
+		<tr>
+        <div class="logo">
+		
+			<td style="border:10px #fff3; padding:8px; text-align:right">
+			<img src="logo New.png" width="150px" height="150px" style="padding:10px; margin:10px">
+			</td>
+			
+			<td style="border:10px #fff3; padding:8px; text-align:left">
+            <h1 style= "font-family:Times New Roman; font-size:80px">CopyPro</h1>
+			</td>
+			
+        </div>
+		</tr>
+		</table>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Machine.html">Machines</a></li>
+				<li><a href="parts.html">Parts</a></li>
+				<li><a href="Toners.html">Toner</a></li>
+				<li><a href="Order.html">Order</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li><a href="index.html">Testimonials</a></li>
+            </ul>
+      </nav>
+    </header>
+
+<table width="75%" height="100%" align="Center" style="border:10px solid blue">
+    <div class="product-category">
+	
+        <h2 style= "font-size:30px; font-style:Cambria; font-family:Cambria; text-align:center">Toner Products</h2>
+		<tr>
+        <div class="product-subcategory">
+			<td width="20%">
+            <h3 style="font-family:Times-New-Roman">Toshiba</h3>
+			</td>
+			<td style="text-align:left">
+            <ol type="1.">
+                <li><b>Toshiba T-200:</b>Compatible with Toshiba e-STUDIO200 series.
+					<ul><li>Price: LKR 15,000</li></ul></li>
+
+				<li><b>Toshiba T-250:</b>Compatible with Toshiba e-STUDIO250 series.
+					<ul><li>Price: LKR 17,000</li></ul></li>
+
+				<li><b>Toshiba T-300:</b>Compatible with Toshiba e-STUDIO300 series.
+					<ul><li>Price: LKR 20,000</li></ul></li>
+                
+            </ol>
+			</td>
+        </div>
+		</tr>
+
+		<tr>
+        <div class="product-subcategory">
+			<td>
+            <h3 style="font-family:Times-New-Roman">canon</h3>
+			</td>
+			<td style="text-align:left">
+            <ol type="1.">
+                <li><b>Canon 045 Toner:</b>Compatible with Canon Color imageCLASS MF634Cdw and Canon Color imageCLASS MF731Cdw series.
+					<ul><li>Price: LKR 25,000</li></ul></li>
+
+				<li><b>Canon 057 Toner:</b>Compatible with Canon imageCLASS MF113w and Canon imageCLASS MF123w series.
+					<ul><li>Price: LKR 18,000</li></ul></li>
+            </ol>
+			</td>
+        </div>
+		</tr>
+		
+		<tr>
+        <div class="product-subcategory">
+			<td>
+            <h3 style="font-family:Times-New-Roman">Konica</h3>
+			</td>
+			<td style="text-align:left">
+            <ol type="1.">
+                <li><b>Konica Minolta TN116 (Compatible with Bizhub 164/165/185 series):</b>
+					<ul><li>Price: LKR 8,000</li></ul></li>
+
+				<li><b>Konica Minolta TN311 (Compatible with Bizhub 350 series):</b>
+					<ul><li>Price: LKR 12,000</li></ul></li>
+					
+				<li><b>Konica Minolta TN610 (Compatible with Bizhub C451/C550/C650 series):</b>
+					<ul><li>Price: LKR 25,000</li></ul></li>
+
+				<li><b>Konica Minolta TN318 (Compatible with Bizhub 163/211 series):</b>
+					<ul><li>Price: LKR 7,000</li></ul></li>
+            </ol>
+			</td>
+        </div>
+		</tr>
+		
+		
+    </div>
+	</table>
+	
+	<p style="font-family:Times-New-Roman; font-size:32px; padding-left:40px"><b><a href="https://www.instructables.com/How-to-Refill-Your-Printer-Toner-Cartridge-the-Eas/">
+	Learn how to add toner to your machine on your own </a></b>
+
+<button onclick="scrollToTop()" id="backToTopButton" title="Go to top">Top</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+        
+        window.onscroll = function() {
+            const backToTopButton = document.getElementById('backToTopButton');
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+    </script>
+
+    <footer class="footer">
+        <p>&copy; 2024 CopyPro</p>
+    </footer>
+
+</body>
+</html>
